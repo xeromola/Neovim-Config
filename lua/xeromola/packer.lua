@@ -14,10 +14,11 @@ return require('packer').startup(function(use)
   -- Tree Sitter
   use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
 
+  -- Git signs
+  use 'lewis6991/gitsigns.nvim'
+
   -- Color Theme 
   use 'marko-cerovac/material.nvim'
   use 'rose-pine/neovim'
   use 'Shatur/neovim-ayu'
-  --use 'ayu-theme/ayu-vim'
-  --use 'Luxed/ayu-vim'
 end)

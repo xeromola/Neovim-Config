@@ -74,15 +74,25 @@ end
 time([[try_loadstring definition]], false)
 time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
-  ["ayu-vim"] = {
+  ["gitsigns.nvim"] = {
     loaded = true,
-    path = "/home/ujjawal0911/.local/share/nvim/site/pack/packer/start/ayu-vim",
-    url = "https://github.com/Luxed/ayu-vim"
+    path = "/home/ujjawal0911/.local/share/nvim/site/pack/packer/start/gitsigns.nvim",
+    url = "https://github.com/lewis6991/gitsigns.nvim"
   },
   ["material.nvim"] = {
     loaded = true,
     path = "/home/ujjawal0911/.local/share/nvim/site/pack/packer/start/material.nvim",
     url = "https://github.com/marko-cerovac/material.nvim"
+  },
+  neovim = {
+    loaded = true,
+    path = "/home/ujjawal0911/.local/share/nvim/site/pack/packer/start/neovim",
+    url = "https://github.com/rose-pine/neovim"
+  },
+  ["neovim-ayu"] = {
+    loaded = true,
+    path = "/home/ujjawal0911/.local/share/nvim/site/pack/packer/start/neovim-ayu",
+    url = "https://github.com/Shatur/neovim-ayu"
   },
   ["nvim-treesitter"] = {
     loaded = true,
